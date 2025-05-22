@@ -2,8 +2,6 @@
 
 This project features a simple weather app website built with HTML, CSS, and JavaScript, designed to display the current weather conditions. It serves as a basic example for learning web development and integrating weather APIs.
 
-![Website preview 1](/images/preview1.jpg)
-
 ## Description
 
 A basic weather application made using HTML, CSS, and JavaScript. 
