@@ -1,0 +1,59 @@
+/* Styling for the body element */
+body {
+    /* Font family for the text */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* Background color for the body */
+    background-color: burlywood;
+    /* Center-align text within the body */
+    text-align: center;
+    /* Margin from the top of the body */
+    margin-top: 50px;
+}
+
+/* Styling for the calculator container */
+#calc {
+    /* Border styling for the calculator container */
+    border: 2px solid black;
+    /* Width of the calculator container */
+    width: 300px;
+    /* Margin for the calculator container (0 to center-align) */
+    margin: 0px auto;
+    /* Rounded corners for the calculator container */
+    border-radius: 10px;
+    /* Padding inside the calculator container */
+    padding: 10px;
+    /* Background color for the calculator container */
+    background-color: rgb(54, 86, 88);
+}
+
+/* Styling for the input field */
+input {
+    /* Width of the input field */
+    width: 80%;
+    /* Margin at the bottom of the input field */
+    margin-bottom: 10px;
+    /* Padding inside the input field */
+    padding: 10px;
+    /* Font size for the text in the input field */
+    font-size: 15px;
+    /* Rounded corners for the input field */
+    border-radius: 5px;
+}
+
+/* Styling for the buttons */
+button {
+    /* Height of the buttons */
+    height: 50px;
+    /* Width of the buttons */
+    width: 60px;
+    /* Margin around the buttons */
+    margin: 5px;
+    /* Rounded corners for the buttons */
+    border-radius: 5px;
+    /* Background color for the buttons */
+    background-color: rgb(186, 214, 214);
+    /* Cursor changes to pointer when hovering over buttons */
+    cursor: pointer;
+    /* Font size for the text in the buttons */
+    font-size: 25px;
+}

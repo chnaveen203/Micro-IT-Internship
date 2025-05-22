@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <!-- Link to the CSS file for styling the calculator -->
+    <link rel="stylesheet" href="calculator.css">
+    <!-- Link to Font Awesome for using icons -->
+    <script src="https://kit.fontawesome.com/7b219338a4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Calculator container -->
+    <div id="calc">
+        <!-- Display screen for showing input and results -->
+        <input type="text" name="" id="display" placeholder="0.0">
+        <br>
+        <!-- Number and operator buttons -->
+        <button onclick="inputing('1')">1</button>
+        <button onclick="inputing('2')">2</button>
+        <button onclick="inputing('3')">3</button>
+        <button onclick="inputing('+')">+</button>
+        <br>
+        <button onclick="inputing('4')">4</button>
+        <button onclick="inputing('5')">5</button>
+        <button onclick="inputing('6')">6</button>
+        <button onclick="inputing('-')">-</button>
+        <br>
+        <button onclick="inputing('7')">7</button>
+        <button onclick="inputing('8')">8</button>
+        <button onclick="inputing('9')">9</button>
+        <button onclick="inputing('*')">*</button>
+        <br> 
+        <button onclick="inputing('0')">0</button>
+        <button onclick="inputing('.')">.</button>
+        <button onclick="calculate()">=</button>
+        <button onclick="inputing('/')">/</button>
+        <br> 
+        <!-- Additional function buttons -->
+        <button onclick="clearDisplay()">c</button>
+        <button onclick="calculatePersentage()">%</button>
+        <button onclick="calculateSquare()">X^2</button>
+        <button onclick="calculateSquareRoot()" >
+            <!-- Square root icon using Font Awesome -->
+            <i class="fa-solid fa-square-root-variable"></i>
+        </button>
+    </div>
+
+    <!-- Link to the JavaScript file for calculator functionality -->
+    <script src="calculator.js"></script>
+</body>
+</html>
