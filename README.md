@@ -32,8 +32,4 @@ git clone https://github.com/chnaveen203/Micro-IT-Internship.git
 
 Contributions to this project are welcome. If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE). Feel free to use the code for personal or commercial purposes.
-
 Enjoy exploring the code and creating your own weather broadcast website!
